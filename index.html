@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <div class="logo">Guia de uso BMS</div>
+            <div class="logo">Guía de uso BMS</div>
             <button id="darkModeToggle" class="theme-toggle">
                 <span class="light-icon">☀️</span>
                 <span class="dark-icon">🌙</span>
@@ -20,7 +20,7 @@
     <main>
         <aside class="sidebar">
             <ul class="nav-links">
-                <li><a href="#conexion" class="active">Conexión baterias</a></li>
+                <li><a href="#conexion" class="active">Conexión baterías</a></li>
                 <li><a href="#wifi">Configuración WiFi</a></li>
                 <li><a href="#interfaz">Interfaz Web</a></li>
                 <li><a href="#lecturas">Lecturas</a></li>
@@ -32,8 +32,8 @@
         </aside>
         <div class="content">
             <section id="conexion">
-                <h2> Conexion del BMS</h2>
-                <p>Los puntos P se conectan al bus DC y las coneccines B se calculan supiniendo un voltaje de cada bateria en 3.7V y se conectan a cada interseccion entre baterias.</p>
+                <h2>Conexión del BMS</h2>
+                <p>Los puntos P se conectan al bus DC y las conexiones B se calculan suponiendo un voltaje de cada batería en 3.7V y se conectan a cada intersección entre baterías.</p>
                 <div class="block-card">
                     <h3>Puntos de Conexión</h3>
                     <ul>
@@ -56,7 +56,7 @@
                 <h2>Configuración WiFi y encendido</h2>
                 <div class="block-card">
                     <ol>
-                        <li>Crear una red Wifi con un celular o un computador.
+                        <li>Crear una red WiFi con un celular o un computador.
                             <div class="credentials-box">
                                 <p><strong>Red:</strong> bms_red</p>
                                 <p><strong>Contraseña:</strong> bmslocal1</p>
@@ -68,7 +68,7 @@
                         <li>Acceder por navegador web vía:
                             <ul>
                                 <li>PC: espbms.local</li>
-                                <li>Móvil: Consultar IP en hotsport</li>
+                                <li>Móvil: Consultar IP en hotspot</li>
                             </ul>
                         </li>
                     </ol>
@@ -97,7 +97,7 @@
                     <div class="readings-grid">
                         <div class="section-card">
                             <h3>Voltajes</h3>
-                            <p>Voltaje de baterias y voltaje total</p>
+                            <p>Voltaje de baterías y voltaje total</p>
                         </div>
                         <div class="section-card">
                             <h3>Corriente</h3>
@@ -116,35 +116,32 @@
             </section>
             <section id="configuracion">
                 <h2>Configuración Básica</h2>
-                <p>Si se conectan baterias de Ion-litio configurar esta seccion sera suficiente para que el BMS opere con normalidad.</p>
+                <p>Si se conectan baterías de ion-litio, configurar esta sección será suficiente para que el BMS opere con normalidad.</p>
                 <div class="block-card">
                     <div class="section-card">
                         <h3>Botones</h3>
                         <table class="settings-table">
                             <tr>
-                                <th>Boton</th>
-                                <th>Funcion</th>
+                                <th>Botón</th>
+                                <th>Función</th>
                             </tr>
                             <tr>
                                 <td>Carga</td>
-                                <td>En verde activa la funcion para que las baterias carguen a travez del bus DC.</td>
+                                <td>En verde activa la función para que las baterías carguen a través del bus DC.</td>
                             </tr>
                             <tr>
                                 <td>Descarga</td>
-                                <td>En verde activa la funcion para que las baterias descarguen a travez del bus DC.</td>
+                                <td>En verde activa la función para que las baterías descarguen a través del bus DC.</td>
                             </tr>
                             <tr>
                                 <td>Balance</td>
-                                <td>En verde activa la fucnion de balanceo de baterias durante la carga.</td>
+                                <td>En verde activa la función de balanceo de baterías durante la carga.</td>
                             </tr>
                             <tr>
                                 <td>Emergencia</td>
-                                <td>Permite que las baterias se descarguen mas alla de su limite de UVP y evita la carga, si la temperatura lo permite.</td>
+                                <td>Permite que las baterías se descarguen más allá de su límite de UVP y evita la carga, si la temperatura lo permite.</td>
                             </tr>
-                            
-
                         </table>
-
                     </div>
                 </div>
                 <div class="section-card">
@@ -156,11 +153,11 @@
                         </tr>
                         <tr>
                             <td>Ciclo de carga</td>
-                            <td>Controla la cantidad de carga que se desea utilizar un 100% utiliza toda la capacidad de las baterias.</td>
+                            <td>Controla la cantidad de carga que se desea utilizar; un 100% utiliza toda la capacidad de las baterías.</td>
                         </tr>
                         <tr>
                             <td>Corriente</td>
-                            <td>Controla la cantidad limite de corriente para cara y descarga, un 100% permite la maxima capacidad.</td>
+                            <td>Controla la cantidad límite de corriente para carga y descarga; un 100% permite la máxima capacidad.</td>
                         </tr>
                     </table>
                 </div>
@@ -191,27 +188,27 @@
                         </tr>
                         <tr>
                             <td>VBal</td>
-                            <td>Voltaje al que una celda incia su balanceo.</td>
+                            <td>Voltaje al que una celda inicia su balanceo.</td>
                         </tr>
                         <tr>
                             <td>CCP</td>
-                            <td>Corriente maxima de carga</td>
+                            <td>Corriente máxima de carga</td>
                         </tr>
                         <tr>
                             <td>CDP</td>
-                            <td>Corriente maxima de descarga</td>
+                            <td>Corriente máxima de descarga</td>
                         </tr>
                         <tr>
                             <td>Tmin</td>
-                            <td>Temperatura minima</td>
+                            <td>Temperatura mínima</td>
                         </tr>
                         <tr>
                             <td>Tmax</td>
-                            <td>Temperatura maxima</td>
+                            <td>Temperatura máxima</td>
                         </tr>
                         <tr>
                             <td>Cap</td>
-                            <td>Capacidad de las baterias, necesaria para estimar el SOC</td>
+                            <td>Capacidad de las baterías, necesaria para estimar el SOC</td>
                         </tr>
                     </table>
                 </div>
@@ -245,7 +242,7 @@
             </section>
             <section id="admin">
                 <h2>Configuraciones de Administrador</h2>
-                <p>Estas coniguraciones solo se usan si se decea recalibrar el sistema.</p>
+                <p>Estas configuraciones solo se usan si se desea recalibrar el sistema.</p>
                 <div class="block-card">
                     <div class="section-card">
                         <h3>Ganancias</h3>
@@ -277,11 +274,11 @@
                             </tr>
                             <tr>
                                 <td>ANG</td>
-                                <td>si es mayor de 1 mostrara las lecturas directamente con su valor analogo, por defecto = 0</td>
+                                <td>Si es mayor de 1 mostrará las lecturas directamente con su valor analógico, por defecto = 0</td>
                             </tr>
                             <tr>
                                 <td>Server off</td>
-                                <td>con un valor mayor que 1 apaga el BMS, por defecto = 0</td>
+                                <td>Con un valor mayor que 1 apaga el BMS, por defecto = 0</td>
                             </tr>
                         </table>
                     </div>
